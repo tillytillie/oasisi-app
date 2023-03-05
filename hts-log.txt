@@ -1,0 +1,24 @@
+HTTrack3.49-2+libhtsjava.so.2 launched on Sun, 05 Mar 2023 04:59:53 at https://oasis-app.surge.sh/# +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/*
+(webhttrack -q -%i -w https://oasis-app.surge.sh/# -O "/home/tillystack/websites/oasis" -n -%P -N0 -s2 -p7 -D -a -K0 -c4 -%k -A25000 -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -%s -%u )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+04:59:57	Warning: 	Note: due to https://oasis-app.surge.sh remote robots.txt rules, links beginning with these path will be forbidden: / (see in the options to disable this)
+05:00:27	Warning: 	Note: due to https://oasis.app remote robots.txt rules, links beginning with these path will be forbidden: /api, /privacy, /terms (see in the options to disable this)
+05:00:34	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://oasis.app/static/favicon.ico
+05:00:36	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://unpkg.com/moralis-v1@1.12.0/dist/moralis.js
+05:01:02	Warning: 	Note: due to https://oasis.app remote robots.txt rules, links beginning with these path will be forbidden: /api, /privacy, /terms (see in the options to disable this)
+05:01:02	Error: 	"Not Found" (404) at link https://oasis.app/static/icons/favicon-16.png (from https://oasis-app.surge.sh/)
+05:01:02	Error: 	"Not Found" (404) at link https://oasis.app/static/icons/favicon-32.png (from https://oasis-app.surge.sh/)
+05:01:02	Error: 	"Not Found" (404) at link https://oasis.app/static/icons/favicon-96.png (from https://oasis-app.surge.sh/)
+05:01:02	Error: 	"Not Found" (404) at link https://oasis.app/static/icons/apple-icon-76x76.png (from https://oasis-app.surge.sh/)
+05:01:02	Error: 	"Not Found" (404) at link https://oasis.app/static/icons/apple-icon-120x120.png (from https://oasis-app.surge.sh/)
+05:01:02	Error: 	"Not Found" (404) at link https://oasis.app/static/icons/apple-icon-152x152.png (from https://oasis-app.surge.sh/)
+05:01:02	Error: 	"Not Found" (404) at link https://oasis.app/static/icons/android-icon-192x192.png (from https://oasis-app.surge.sh/)
+05:01:03	Warning: 	Warning: store text/css without scan: /home/tillystack/websites/oasis/oasis.app/_next/static/css/716f266f921157c3.css
+
+HTTrack Website Copier/3.49-2 mirror complete in 1 minutes 11 seconds : 59 links scanned, 57 files written (16512793 bytes overall) [10283373 bytes received at 144836 bytes/sec], 8220670 bytes transferred using HTTP compression in 20 files, ratio 29%, 2.8 requests per connection
+(7 errors, 6 warnings, 0 messages)
